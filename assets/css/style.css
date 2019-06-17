@@ -1,0 +1,56 @@
+/* LOGIN */
+#login{
+    margin-top: 50px;
+}
+#search{
+    width: calc(100% - 30px);
+    padding: 0 15px 0 15px;
+}
+
+header, main, footer,nav {
+    padding-left: 300px;
+  }
+.container{
+    width: 90%;
+}
+.contact-list-img{
+    width: 48px;
+}
+.contact-list-img img{
+    width: 48px;
+    height: 48px;
+}
+thead{
+    border-bottom: solid 2px #888;
+}
+tbody tr td{
+    vertical-align: middle;
+}
+.contact-list-options{
+    width: 90px;
+}
+
+.contact-list-options i{
+    width: 24px;
+}
+.contact-list-options a{
+    color: #888;
+}
+.contact-list-options a:hover{
+    color: black;
+}
+@media only screen and (max-width : 992px) {
+    header, main, footer, nav {
+      padding-left: 0;
+    }
+    .contact-list-img{
+        width: 32px;
+    }
+    .contact-list-img img{
+        width: 32px;
+        height: 32px;
+    }
+    .contact-list-options{
+        width: 30px;
+    }
+}
