@@ -39,6 +39,9 @@ tbody tr td{
 .contact-list-options a:hover{
     color: black;
 }
+.highlight{
+    border: solid 1px #888888;
+}
 @media only screen and (max-width : 992px) {
     header, main, footer, nav {
       padding-left: 0;
